@@ -20,7 +20,7 @@ const UserInput: React.FC<Props> = ({ onChange }) => {
       <input
         type="text"
         onChange={handleChange}
-        placeholder="e.g. Ryan"
+        placeholder="e.g. Lily"
         className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-holiday-red"
       />
     </div>

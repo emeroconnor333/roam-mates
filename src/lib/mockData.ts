@@ -116,7 +116,7 @@ export const mockCities: City[] = [
     id: "12",
     name: "Costa Rica",
     country: "Costa Rica",
-    imageUrl: "https://images.unsplash.com/photo-1518093165763-0c9c1d6514c0",
+    imageUrl: "https://media.istockphoto.com/id/1388560096/photo/arenal-volcano-and-arenal-lake-costa-rica.webp?a=1&b=1&s=612x612&w=0&k=20&c=5RSR2LI_Ez01BN7BTrY2dsZdSUSvc5JFeGuaZpVQll8=",
     description: "Lush rainforests, beautiful beaches and abundant wildlife in this eco-paradise.",
     tags: ["outdoor_activities", "beach"]
   }
