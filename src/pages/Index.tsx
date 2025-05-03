@@ -42,7 +42,7 @@ const Index = () => {
       <header className="py-6 px-4 text-center">
         <div className="flex items-center justify-center">
           <Heart className="text-holiday-red mr-2" size={24} fill="#ea384c" />
-          <h1 className="text-3xl font-bold text-holiday-primary">TripMatcher</h1>
+          <h1 className="text-3xl font-bold text-holiday-primary">RoamMates</h1>
         </div>
         <p className="text-holiday-secondary mt-1">Find your perfect holiday destination</p>
       </header>
@@ -74,7 +74,7 @@ const Index = () => {
       </main>
       
       <footer className="py-4 text-center text-sm text-gray-500">
-        <p>© 2025 TripMatcher - Find your perfect holiday destination</p>
+        <p>© 2025 RoamMates - Find your perfect group holiday</p>
       </footer>
       
       <Toaster />
