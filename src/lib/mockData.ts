@@ -68,7 +68,7 @@ export const mockCities: City[] = [
     id: "6",
     name: "Bangkok",
     country: "Thailand",
-    imageUrl: "https://images.unsplash.com/photo-1508009603885-50cf7c8dd0d5",
+    imageUrl: "https://media.istockphoto.com/id/2164152889/photo/tourists-and-locals-enjoying-yaowarats-street-food.webp?a=1&b=1&s=612x612&w=0&k=20&c=v_y2Yd7_939HMz803EkfqxHD32tHsAL9d-UBw11dJhs=",
     description: "Bustling city with vibrant street life, beautiful temples and amazing food.",
     tags: ["great_food","nightlife_and_entertainment"]
   },
