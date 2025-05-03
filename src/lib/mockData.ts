@@ -84,7 +84,7 @@ export const mockCities: City[] = [
     id: "8",
     name: "Reykjavik",
     country: "Iceland",
-    imageUrl: "https://images.unsplash.com/photo-1504284769998-2fccad3b4266",
+    imageUrl: "https://plus.unsplash.com/premium_photo-1661962984700-16b03ecda58a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Gateway to natural wonders with northern lights, volcanoes and hot springs.",
     tags: ["outdoor_activities", "art_and_culture"]
   },
@@ -119,86 +119,6 @@ export const mockCities: City[] = [
     imageUrl: "https://images.unsplash.com/photo-1518093165763-0c9c1d6514c0",
     description: "Lush rainforests, beautiful beaches and abundant wildlife in this eco-paradise.",
     tags: ["outdoor_activities", "beach"]
-  },
-  {
-    id: "13",
-    name: "Lisbon",
-    country: "Portugal",
-    imageUrl: "https://images.unsplash.com/photo-1528127269322-539801943592",
-    description: "Charming coastal city with historic trams, vibrant nightlife and delicious seafood.",
-    tags: ["family_friendly"]
-  },
-  {
-    id: "14",
-    name: "Vancouver",
-    country: "Canada",
-    imageUrl: "https://images.unsplash.com/photo-1495231916356-a86217efff12",
-    description: "Nestled between mountains and sea, offering world-class outdoor adventures and food.",
-    tags: ["great_food"]
-  },
-  {
-    id: "15",
-    name: "Hanoi",
-    country: "Vietnam",
-    imageUrl: "https://images.unsplash.com/photo-1506321806993-0f042c3125c2",
-    description: "Bustling capital with rich history, chaotic charm, and incredible street food.",
-    tags: ["outdoor_activities"]
-  },
-  {
-    id: "16",
-    name: "Dubrovnik",
-    country: "Croatia",
-    imageUrl: "https://images.unsplash.com/photo-1504198453319-5ce911bafcde",
-    description: "Historic walled city on the Adriatic coast with stunning sea views and beaches.",
-    tags: ["beach", "underrated_destinations"]
-  },
-  {
-    id: "17",
-    name: "Buenos Aires",
-    country: "Argentina",
-    imageUrl: "https://images.unsplash.com/photo-1534278931828-c0f0b9cb6cf7",
-    description: "Lively city known for tango, beef, European charm and vibrant street art.",
-    tags: ["great_food"]
-  },
-  {
-    id: "18",
-    name: "Seoul",
-    country: "South Korea",
-    imageUrl: "https://images.unsplash.com/photo-1569235392473-45e53fc1a6b1",
-    description: "Dynamic mix of futuristic tech and ancient temples with fantastic food.",
-    tags: ["great_food", "art_and_culture"]
-  },
-  {
-    id: "19",
-    name: "Tallinn",
-    country: "Estonia",
-    imageUrl: "https://images.unsplash.com/photo-1580221159280-895c6b08ef54",
-    description: "A fairytale-like old town, digital innovation hub and underrated Baltic gem.",
-    tags: ["underrated_destinations", "art_and_culture"]
-  },
-  {
-    id: "20",
-    name: "Queenstown",
-    country: "New Zealand",
-    imageUrl: "https://images.unsplash.com/photo-1502784444185-10b8b70b9a16",
-    description: "Adventure capital with stunning alpine scenery and thrilling outdoor activities.",
-    tags: ["outdoor_activities"]
-  },
-  {
-    id: "21",
-    name: "Naples",
-    country: "Italy",
-    imageUrl: "https://images.unsplash.com/photo-1505245208761-ba872912fac0",
-    description: "Birthplace of pizza, brimming with energy, history, and coastal beauty.",
-    tags: ["great_food", "beach"]
-  },
-  {
-    id: "22",
-    name: "Valparaíso",
-    country: "Chile",
-    imageUrl: "https://images.unsplash.com/photo-1603728269342-028ee67472e1",
-    description: "Colourful hills, street art and bohemian spirit on the Pacific coast.",
-    tags: ["underrated_destinations", "art_and_culture"]
   }
   
 ];
