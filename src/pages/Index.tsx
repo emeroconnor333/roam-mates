@@ -28,7 +28,7 @@ const Index = () => {
 
   // --- State ---
   // Start state at 'airport'
-  const [state, setState] = useState<AppState>("airport"); 
+  
   const [selectedAirport, setSelectedAirport] = useState<string>("");
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [winningCity, setWinningCity] = useState<City | null>(null);
