@@ -14,16 +14,13 @@ export interface City {
 }
 
 export const availableTags: Tag[] = [
-  { id: "nightlife", name: "Nightlife" },
-  { id: "budget-friendly", name: "Budget Friendly" },
-  { id: "outdoor-activities", name: "Outdoor Activities" },
+  { id: "nightlife_and_entertainment", name: "Nightlife & Entertainment" },
+  { id: "underrated_destinations", name: "Underrated Destinations" },
   { id: "beach", name: "Beach" },
+  { id: "art_and_culture", name: "Art & Culture" },
   { id: "family-friendly", name: "Family Friendly" },
-  { id: "historical", name: "Historical" },
-  { id: "food", name: "Food & Cuisine" },
-  { id: "shopping", name: "Shopping" },
-  { id: "art-culture", name: "Art & Culture" },
-  { id: "romantic", name: "Romantic" },
+  { id: "great_food", name: "Great Food" },
+  { id: "outdoor_activities", name: "Outdoor Activities" },
 ];
 
 export const airports = [
