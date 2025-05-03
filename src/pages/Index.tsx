@@ -1,5 +1,6 @@
 
 import React, { useState } from "react";
+import UserInput from "@/components/UserInput";
 import AirportSelector from "@/components/AirportSelector";
 import TagSelector from "@/components/TagSelector";
 import GameScreen from "@/components/GameScreen";
@@ -11,12 +12,16 @@ import { Heart } from "lucide-react";
 type AppState = "airport" | "tags" | "game" | "winner";
 
 const Index = () => {
+  const [userId, setUserId] = useState<string>("");
   const [state, setState] = useState<AppState>("airport");
   const [selectedAirport, setSelectedAirport] = useState<string>("");
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [winningCity, setWinningCity] = useState<City | null>(null);
+  const SUPABASE_URL = "https://fyzofzxszjsxrtaupobr.supabase.co";
+  const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ5em9menhzempzeHJ0YXVwb2JyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDYyNzM1ODgsImV4cCI6MjA2MTg0OTU4OH0.BScS2QMKlkgCMlvO33CBDBlKTPXfL96z-xswWU-oYeE";
 
   const handleAirportSelected = (airportId: string) => {
+
     setSelectedAirport(airportId);
     setState("tags");
   };
@@ -44,7 +49,7 @@ const Index = () => {
           <Heart className="text-holiday-red mr-2" size={24} fill="#ea384c" />
           <h1 className="text-3xl font-bold text-holiday-primary">RoamMates</h1>
         </div>
-        <p className="text-holiday-secondary mt-1">Find your perfect holiday destination</p>
+        <p className="text-holiday-secondary mt-1">Find your perfect group holiday destination</p>
       </header>
 
       <main className="container px-4 py-8 max-w-5xl mx-auto">
@@ -54,12 +59,16 @@ const Index = () => {
           )}
 
           {state === "tags" && (
-            <TagSelector onTagsSelected={handleTagsSelected} />
+            <>
+              <UserInput onChange={setUserId} />
+              <TagSelector userId={userId} onTagsSelected={handleTagsSelected} />
+            </>
           )}
 
           {state === "game" && (
             <GameScreen 
               selectedTags={selectedTags} 
+              userId={userId}
               onGameComplete={handleGameComplete}
             />
           )}

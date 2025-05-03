@@ -7,6 +7,7 @@ import { toast } from "@/components/ui/sonner";
 
 interface GameScreenProps {
   selectedTags: string[];
+  userId: string;
   onGameComplete: (winningCity: City) => void;
 }
 
