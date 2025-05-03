@@ -15,7 +15,7 @@ const UserInput: React.FC<Props> = ({ onChange }) => {
   return (
     <div className="mb-4">
       <label className="block mb-2 text-sm font-medium text-gray-700">
-        Enter your User ID
+        Enter your Name
       </label>
       <input
         type="text"
