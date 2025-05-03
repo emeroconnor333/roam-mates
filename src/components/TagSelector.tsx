@@ -52,7 +52,7 @@ const TagSelector: React.FC<TagSelectorProps> = ({ userId, onTagsSelected }) => 
     // Step 1: Insert the user selection
     const { data: selection, error: selectionError } = await supabase
       .from("user_selections")
-      .insert([{ user_id: userId, selected_tags: selectedTags }])
+      .insert([{ name: userId, selected_tags: selectedTags }])
       .select()
       .single();
 

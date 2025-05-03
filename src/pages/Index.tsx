@@ -32,8 +32,6 @@ const Index = () => {
   const [selectedAirport, setSelectedAirport] = useState<string>("");
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [winningCity, setWinningCity] = useState<City | null>(null);
-  const SUPABASE_URL = "https://fyzofzxszjsxrtaupobr.supabase.co";
-  const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ5em9menhzempzeHJ0YXVwb2JyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDYyNzM1ODgsImV4cCI6MjA2MTg0OTU4OH0.BScS2QMKlkgCMlvO33CBDBlKTPXfL96z-xswWU-oYeE";
 
   // --- End State ---
 

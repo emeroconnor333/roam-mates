@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   // 1. Save selection
   const { data: selection, error } = await supabase
     .from('user_selections')
-    .insert([{ user_id: userId, selected_tags: selectedTags }])
+    .insert([{ name: userId, selected_tags: selectedTags }])
     .select()
     .single();
 
@@ -28,6 +28,8 @@ export default async function handler(req, res) {
     selection_id: selection.id,
     city: c.city,
   }));
+
+  console.log("Generated recommendations:", recs);
 
   await supabase.from('recommendations').insert(recs);
 
